@@ -16,6 +16,7 @@ public class HomePageTest {
 
     @BeforeClass
     public void setUp() {
+
         chromeDriver = baseTest.setUp("https://www.worldmarket.com");
     }
 
