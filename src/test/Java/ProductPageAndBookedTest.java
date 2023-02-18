@@ -12,7 +12,7 @@ public class ProductPageAndBookedTest {
 
     @BeforeClass
     public void setUp() {
-        driver = baseTest.setUp("https://www.worldmarket.com/category/gifts/all.do");
+        baseTest.setUp("https://www.worldmarket.com/category/gifts/all.do");
     }
 
     @Test(priority = 1)

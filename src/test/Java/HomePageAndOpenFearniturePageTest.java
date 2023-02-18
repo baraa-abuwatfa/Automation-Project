@@ -14,7 +14,7 @@ public class HomePageAndOpenFearniturePageTest {
 
     @BeforeClass
     public void setUp() {
-        driver = baseTest.setUp("https://www.worldmarket.com/category/gifts/all.do");
+        baseTest.setUp("https://www.worldmarket.com/");
     }
 
     @Test(priority = 1)
