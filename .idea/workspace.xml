@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02e6cb26-d69f-437f-a637-094a4ce23f38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Java/OpenGitsPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Java/HomePageAndOpenFearniturePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Java/BookProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Java/ProductPageAndBookedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Java/HomePageAndOpenFearniturePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Java/HomePageAndOpenFearniturePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Java/OpenGitsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Java/OpenGitsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Java/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Java/Setup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Java/TearDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Java/TearDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676663534549</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new">
+      <created>1676718755967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676718755967</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

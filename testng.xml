@@ -6,7 +6,7 @@
             <class name="Setup"></class>
             <class name="HomePageAndOpenFearniturePageTest"></class>
             <class name="OpenGitsPageTest"></class>
-            <class name="BookProductTest"></class>
+            <class name="ProductPageAndBookedTest"></class>
             <class name="TearDown"></class>
         </classes>
     </test>
@@ -14,7 +14,7 @@
         <classes>
             <class name="Setup"></class>
             <class name="OpenGitsPageTest"></class>
-            <class name="BookProductTest"></class>
+            <class name="ProductPageAndBookedTest"></class>
             <class name="TearDown"></class>
         </classes>
     </test>
