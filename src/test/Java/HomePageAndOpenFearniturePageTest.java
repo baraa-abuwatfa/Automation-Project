@@ -1,10 +1,11 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
 
-public class HomePageTest{
+public class HomePageAndOpenFearniturePageTest {
     Setup baseTest= new Setup();
 
 
@@ -13,11 +14,10 @@ public class HomePageTest{
         //*[@id="cpwm-additionaldisclaimer3"]/button
         //ازالة الاعلان الظاهر
         WebElement additionaldiscbutton = Setup.driver.findElement(By.xpath("//*[@id='cpwm-additionaldisclaimer3']/button"));
-
        additionaldiscbutton.click();
+
        //البحث عن سكشن بالصفحة
         WebElement MainDiv = Setup.driver.findElement(By.xpath("//*[@id='home_topnav_layout_15_fillslot-1']"));
-
         assertTrue(MainDiv.isDisplayed());
     }
 
@@ -36,7 +36,11 @@ public class HomePageTest{
         WebElement ShopAllFurniturelink = Setup.driver.findElement(By.xpath("//*[@id='ml-accessible-megamenu-furniture-sub']/li[1]/ul/li[2]/a"));
         assertTrue(ShopAllFurniturelink.isDisplayed());
         ShopAllFurniturelink.click();
+
     }
+
+
+
 //h1[@class='wm-header']
     @Test(priority = 5)
     public void verifyThatShopAllFurniturePageIsDisplayed(){

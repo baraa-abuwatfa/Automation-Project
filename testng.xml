@@ -4,9 +4,17 @@
     <test name="flow1" >
         <classes>
             <class name="Setup"></class>
-            <class name="HomePageTest"></class>
+            <class name="HomePageAndOpenFearniturePageTest"></class>
+            <class name="OpenGitsPageTest"></class>
             <class name="BookProductTest"></class>
-
+            <class name="TearDown"></class>
+        </classes>
+    </test>
+    <test name="flow2" >
+        <classes>
+            <class name="Setup"></class>
+            <class name="OpenGitsPageTest"></class>
+            <class name="BookProductTest"></class>
             <class name="TearDown"></class>
         </classes>
     </test>
